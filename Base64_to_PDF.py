@@ -6,9 +6,9 @@ with open('Base64.txt','r') as file:
 
 decode_file_content = base64.b64decode(content)
 
-with open('decode/file.pdf','wb') as pdf_file:
+with open('decode_file.pdf','wb') as pdf_file:
    pdf_file.write(decode_file_content)
 
-print('Conteúdo convertido em PDF com sucesso!\n\nPDF criado na pasta: decode')
+print('Conteúdo convertido em PDF com sucesso!')
 
 time.sleep(5)
