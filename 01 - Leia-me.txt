@@ -1,0 +1,3 @@
+01 - Substitua o arquivo de texto "Base64.txt" por seu arquivo com conteúdo Base64
+
+02 - O arquivo PDF será salvo na pasta "decode"
